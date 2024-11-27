@@ -19,12 +19,30 @@
 
 # Crie um programa que calculo a média de dois números flutuantes
 
-def media(a,b):
-    return (a+b)/2
+# def media(a,b):
+#     return (a+b)/2
 
 
-num1 = float(input('Digite o primeiro número: '))
-num2 = float(input('Digite o segundo número: '))
+# num1 = float(input('Digite o primeiro número: '))
+# num2 = float(input('Digite o segundo número: '))
 
-print(f'A média dos números é: {media(num1,num2)}')
+# print(f'A média dos números é: {media(num1,num2)}')
 
+
+
+# Escreva um programa que concatene duas strings fornecidas pelo usuário
+
+string1 = input('Digite uma palavra: ')
+string2 = input('Digite outra palavra: ')
+
+print(string1, string2)
+
+
+
+
+# Escreva um programa que receba uma data e separe o dia, mês e ano em uma lista
+
+data = input('Digite a data nesse formato DD/MM/AAAA -> ')
+data_split = data.split('/')
+
+print(f'O dia é {data_split[0]}. O mês é {data_split[1]}. O ano é {data_split[2]}.')
