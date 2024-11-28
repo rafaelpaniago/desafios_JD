@@ -32,17 +32,33 @@
 
 # Escreva um programa que concatene duas strings fornecidas pelo usuário
 
-string1 = input('Digite uma palavra: ')
-string2 = input('Digite outra palavra: ')
+# string1 = input('Digite uma palavra: ')
+# string2 = input('Digite outra palavra: ')
 
-print(string1, string2)
+# print(string1, string2)
 
 
 
 
 # Escreva um programa que receba uma data e separe o dia, mês e ano em uma lista
 
-data = input('Digite a data nesse formato DD/MM/AAAA -> ')
-data_split = data.split('/')
+# data = input('Digite a data nesse formato DD/MM/AAAA -> ')
+# data_split = data.split('/')
 
-print(f'O dia é {data_split[0]}. O mês é {data_split[1]}. O ano é {data_split[2]}.')
+# print(f'O dia é {data_split[0]}. O mês é {data_split[1]}. O ano é {data_split[2]}.')
+
+
+
+# Escreva um programa usando try except
+# Try except é usado para tratar erros.
+
+def divisao(a,b):
+    try:
+        resultado = a / b
+    except ZeroDivisionError:
+        return "Divisão por zero."
+    return resultado
+
+print(divisao(9,3))
+print(divisao(2,0))
+
